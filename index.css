@@ -1,0 +1,82 @@
+.Title > a > img{
+    width:75px;
+    height:75px;
+}
+
+.Header{
+    border:1px solid black;
+    padding: 10px;
+    margin: 10px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.Header > ul {
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.Header > ul > li {
+    margin:10px;
+}
+
+.Shimmer {
+    border:1px solid black;
+    margin:10px;
+    padding:10px;
+}
+
+.Shimmer-search {
+    margin-left:10px;
+}
+
+.Shimmer-containers {
+    display: flex;
+    flex-wrap: wrap;
+}
+#box {
+    margin:10px;
+    background-color: lightgray;
+    width:250px;
+    height:450px;
+    border:1px solid black;
+}
+
+.Body {
+    margin:10px;
+    padding:10px;
+    border:1px solid black;
+}
+
+.search-input {
+    margin-left:10px;
+    border-radius:4px;
+
+}
+
+.button {
+    border-radius:4px;
+    margin:5px;
+}
+
+.display {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.restaurantCard {
+    margin:10px;
+    padding:10px;
+    width:250px;
+    border:1px solid black;
+}
+
+.restaurantCard > img {
+    width:100%;
+}
+
+.restaurantMenu {
+    display:flex;
+    flex-wrap:wrap;
+}
