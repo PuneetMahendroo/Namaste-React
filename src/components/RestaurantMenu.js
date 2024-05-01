@@ -27,7 +27,7 @@ const RestaurantMenu = () => {
         // data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card?.itemCards
         // data.cards[2].card.card.info
         setRestaurantInfo(jsonn?.data?.cards[2]?.card?.card?.info);
-        console.log()
+        console.log(restaurantInfo);
         const aa = jsonn?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card?.itemCards;
         setRestaurantsMenu(jsonn?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card?.itemCards);
         // ( restaurantInfo === null ) ?
