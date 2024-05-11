@@ -10,7 +10,7 @@ import Error from "./components/Error";
 import Cart from "./components/Cart";
 import Profile from "./components/Profile";
 import ProfileClass from "./components/ProfileClass";
-import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";//react-router-dom 
 
 const AppLayout = () => {
     return(

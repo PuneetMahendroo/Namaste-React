@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";//react-router-dom
 import { useEffect , useState } from "react";
 import { first , second , img_cdn } from "../Constants";
 import Shimmer from "./Shimmer";

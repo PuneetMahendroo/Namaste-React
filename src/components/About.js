@@ -1,8 +1,8 @@
-import { Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";//react-router-dom
 import Profile from "./Profile";
 import ProfileClass from "./ProfileClass";
 import { Component } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";//react-router-dom
 
 class About extends Component{
   constructor(props) {
