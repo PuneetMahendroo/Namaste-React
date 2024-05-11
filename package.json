@@ -8,7 +8,8 @@
     "test": "jest",
     "start": "parcel index.html",
     "deploy": "gh-pages -d dist",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "predeploy": "npm run build"
   },
   "author": "Puneet Mahendroo",
   "license": "ISC",
