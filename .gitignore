@@ -1,5 +1,4 @@
 node_modules/
-dist/
 
 *.class
 
@@ -10,7 +9,6 @@ dist/
 *.jar
 
 target/
-dist/
 
 .idea/
 

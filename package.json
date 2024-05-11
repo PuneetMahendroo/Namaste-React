@@ -1,6 +1,6 @@
 {
   "name": "10.ten",
-  "homepage":"https://github.com/PuneetMahendroo/Namaste-React.git",
+  "homepage": "https://github.com/PuneetMahendroo/Namaste-React.git",
   "version": "1.0.0",
   "description": "This is starting of video 10 of the course",
   "source": "index.html",
@@ -14,9 +14,10 @@
   "license": "ISC",
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.1"
   },
   "devDependencies": {
-    "parcel": "^2.9.3"
+    "parcel": "^2.12.0"
   }
 }
