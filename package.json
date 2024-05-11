@@ -1,10 +1,14 @@
 {
   "name": "10.ten",
+  "homepage":"https://github.com/PuneetMahendroo/Namaste-React.git",
   "version": "1.0.0",
   "description": "This is starting of video 10 of the course",
   "source": "index.html",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "parcel index.html",
+    "deploy": "gh-pages -d dist",
+    "build": "parcel build index.html"
   },
   "author": "Puneet Mahendroo",
   "license": "ISC",
